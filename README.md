@@ -19,8 +19,9 @@ public static void Main(string[] args)
     Console.ReadKey();
   }
   ~~~
+
+## In the pipeline ##
   
-  ##In the pipeline##
   1. No manual JSON parsing step
   2. Async toning
   3. Analytics helper functions
