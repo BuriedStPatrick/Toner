@@ -6,8 +6,8 @@ This is still a very early work in progress, as I'm currently working on the mod
 ~~~ 
 public static void Main(string[] args)
 {
-    var username = ConfigurationManager.AppSettings["Toner.Presidents.Username"];
-    var password = ConfigurationManager.AppSettings["Toner.Presidents.Password"];
+    var username = ConfigurationManager.AppSettings["Toner.Username"];
+    var password = ConfigurationManager.AppSettings["Toner.Password"];
     var fetcher = new Fetcher(username, password);
 
     Console.WriteLine("Starting import process...");
